@@ -1,0 +1,60 @@
+body {
+    font-family: var(--ff-secondary);
+    background:rgb(236, 199, 204);
+    line-height: 2.5;
+    font-size: 0.888rem;
+}
+
+h1 {
+    font-size: 5rem;
+    color:rgb(113, 79, 79);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#value {
+    font-size: 4.5rem;
+    font-weight: italic bold;
+    color: rgb(131, 97, 97);
+ }
+
+@media screen and (min-width: 800px) {
+    h1 {
+        font-size: 5rem;
+    }
+        body {
+            font-size: 1rem;
+        }
+        h1 {
+            line-height: 1;
+   }
+}
+
+main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    text-align: center;
+ }
+
+.btn {
+  text-transform: uppercase;
+  background:rgb(244, 198, 194);
+  padding: 0.50rem 0.50rem;
+  letter-spacing: var(--spacing);
+  display: inline-block;
+  transition: var(--transition);
+  font-size: 1rem;
+  border: 2px solid rgb(193, 173, 165);
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(246, 218, 218, 0.2);
+  border-radius: var(--dark-shadow);
+  margin: 0.55rem;
+}
+
+.btn:hover {
+  color: rgb(112, 155, 155);
+  background: var(--clr-white);
+} 
